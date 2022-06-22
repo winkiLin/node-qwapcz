@@ -11,3 +11,5 @@ fs.readFile('/User/16149/testFile.txt', 'utf-8', (err, data) => {
   }
   console.log('data=>', data);
 });
+const os = require('os');
+console.log(os.homedir());
